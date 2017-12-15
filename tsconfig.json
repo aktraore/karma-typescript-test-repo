@@ -1,0 +1,19 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "commonjs",
+        "sourceMap": true,
+        "types": [
+            "angular",
+            "angular-mocks",
+            "jasmine"
+        ],
+        "paths": {
+            "kt/*": ["node_modules/karma-typescript/dist/*"]
+        }
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
