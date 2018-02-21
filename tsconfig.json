@@ -11,7 +11,8 @@
         ],
         "paths": {
             "kt/*": ["node_modules/karma-typescript/dist/*"]
-        }
+        },
+        "baseUrl": "."
     },
     "exclude": [
         "node_modules"

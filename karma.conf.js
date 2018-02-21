@@ -21,12 +21,6 @@ module.exports = function (config) {
                     require('karma-typescript-es6-transform')()
                 ],
                 entrypoints: /\.spec\.ts$/,
-                resolve: {
-                    directories: ['node_modules'],
-                    alias: {
-                      'kt/*': 'node_modules/karma-typescript/dist/*'
-                    }
-                }
             }
         },
         plugins: [
